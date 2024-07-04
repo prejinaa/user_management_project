@@ -1,8 +1,8 @@
-package com.example.User_Management_Project.controller;
+package com.example.user_management_project.controller;
 
 
-import com.example.User_Management_Project.Service.StudentService;
-import com.example.User_Management_Project.entity.Student;
+import com.example.user_management_project.Service.StudentService;
+import com.example.user_management_project.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

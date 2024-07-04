@@ -1,9 +1,9 @@
-package com.example.User_Management_Project.Service.Impl;
+package com.example.user_management_project.Service.Impl;
 
 
-import com.example.User_Management_Project.Service.StudentService;
-import com.example.User_Management_Project.entity.Student;
-import com.example.User_Management_Project.repository.StudentRepository;
+import com.example.user_management_project.Service.StudentService;
+import com.example.user_management_project.entity.Student;
+import com.example.user_management_project.repository.StudentRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

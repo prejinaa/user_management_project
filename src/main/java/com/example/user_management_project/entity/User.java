@@ -1,4 +1,4 @@
-package com.example.User_Management_Project.entity;
+package com.example.user_management_project.entity;
 
 import jakarta.persistence.Entity;
 
@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 
-
+// this is user entity.
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

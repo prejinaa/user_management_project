@@ -1,4 +1,4 @@
-package com.example.User_Management_Project.config;
+package com.example.user_management_project.config;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

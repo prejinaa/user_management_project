@@ -1,7 +1,7 @@
-package com.example.User_Management_Project.Service;
+package com.example.user_management_project.Service;
 
 
-import com.example.User_Management_Project.entity.Student;
+import com.example.user_management_project.entity.Student;
 
 import java.util.List;
 

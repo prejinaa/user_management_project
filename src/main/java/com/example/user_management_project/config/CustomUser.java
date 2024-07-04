@@ -1,6 +1,6 @@
-package com.example.User_Management_Project.config;
+package com.example.user_management_project.config;
 
-import com.example.User_Management_Project.entity.User;
+import com.example.user_management_project.entity.User;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

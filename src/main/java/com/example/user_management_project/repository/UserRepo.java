@@ -1,7 +1,7 @@
-package com.example.User_Management_Project.repository;
+package com.example.user_management_project.repository;
 
 
-import com.example.User_Management_Project.entity.User;
+import com.example.user_management_project.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

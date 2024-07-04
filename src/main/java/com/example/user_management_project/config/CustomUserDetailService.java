@@ -1,7 +1,7 @@
-package com.example.User_Management_Project.config;
+package com.example.user_management_project.config;
 
-import com.example.User_Management_Project.entity.User;
-import com.example.User_Management_Project.repository.UserRepo;
+import com.example.user_management_project.entity.User;
+import com.example.user_management_project.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

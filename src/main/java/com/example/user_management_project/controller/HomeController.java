@@ -1,11 +1,11 @@
-package com.example.User_Management_Project.controller;
+package com.example.user_management_project.controller;
 
 
 
-import com.example.User_Management_Project.Service.UserService;
-import com.example.User_Management_Project.entity.User;
+import com.example.user_management_project.Service.UserService;
+import com.example.user_management_project.entity.User;
 
-import com.example.User_Management_Project.repository.UserRepo;
+import com.example.user_management_project.repository.UserRepo;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 
