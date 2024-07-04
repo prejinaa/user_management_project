@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:replace="base::layout(~{::section})">
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .profile-section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 50px auto;
+        }
+        .profile-section h1 {
+            color: #343a40;
+            margin-bottom: 20px;
+        }
+        .profile-section h4 {
+            color: #6c757d;
+            margin-bottom: 10px;
+        }
+        .profile-section .btn-logout {
+            background-color: #dc3545;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<section class="profile-section">
+    <h1 class="text-center">User Profile Page</h1>
+    <div class="text-center">
+        <h4>Name: [[${user.name}]]</h4>
+        <h4>Email: [[${user.email}]]</h4>
+        <h4>Role: [[${user.role}]]</h4>
+        <a href="/logout" class="btn btn-logout mt-3">Logout</a>
+    </div>
+</section>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
